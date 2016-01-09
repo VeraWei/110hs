@@ -1,20 +1,9 @@
-html,
-body,
-header,
-ul,
-p,
+@baseBiggerValue: 50px;
+@baseValue: 15px;
 div {
-  margin: 0 auto;
-  padding: 0;
-  display: block;
   text-align: center;
 }
-a {
-  text-decoration: none;
-  color: #383838;
-}
-li {
-  margin: 0;
+ul {
   padding: 0;
 }
 .main {
@@ -22,10 +11,14 @@ li {
     font-size: 0;
     li {
       font-size: 16px;
-      padding: 15px;
-      background: red;
-      display: inline-block;
+      padding: @baseValue;
       vertical-align: middle;
     }
+  }
+  button {
+    margin: @baseValue 0;
+  }
+  .phase {
+    margin-top: @baseValue;
   }
 }
