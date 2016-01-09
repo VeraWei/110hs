@@ -1,0 +1,29 @@
+html,
+body,
+header,
+ul,
+p,
+div {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #383838;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+.main ul {
+  font-size: 0;
+}
+.main ul li {
+  font-size: 16px;
+  padding: 15px;
+  background: red;
+  display: inline-block;
+  vertical-align: middle;
+}
